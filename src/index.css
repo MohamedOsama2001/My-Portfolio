@@ -1,0 +1,82 @@
+@import "keep-react/css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 222 30% 13%;
+    --background-gradient: linear-gradient(
+      297.53deg,
+      hsl(240, 3.5%, 16.3%, 0.6) 1.07%,
+      hsl(210, 19.2%, 21%, 0.6) 55.24%
+    );
+    --white: 240 5 96;
+    --dark: 222 40 10;
+    --muted: 240 5 65;
+    --section-title: 240 5 65;
+    --section-back-title: 209 20 21;
+    --btn-primary: 209 98 42;
+    --btn-primary-hover: 209 98 37;
+    --btn-secondary: 208 20 34;
+    --btn-secondary-hover: 208 20 29;
+    --danger: 354 70 54;
+    --danger-hover: 354 70 49;
+    --dark-blue: 209 20 21;
+    --blue: 209 98 42;
+    --yellow: 53 100 50;
+  }
+}
+
+body {
+  body {
+    @apply font-sans;
+  }
+  background-color: hsl(var(--background));
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--dark-blue));
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(var(--background));
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Arrow animation in Hero Section, Home Page */
+.arrowOne {
+  animation: ArrowDown 2s infinite;
+}
+
+.arrowTwo {
+  animation: ArrowDown 2s infinite;
+  animation-delay: -0.2s;
+}
+
+.arrowThree {
+  animation: ArrowDown 2s infinite;
+  animation-delay: -0.4s;
+}
+
+@keyframes ArrowDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-25px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+}
