@@ -139,7 +139,7 @@ export const PROJECTS: IProject[] = [
     description:
       "Dzit is an online store that allows users to turn their personal photos into unique wall art and decorative frames. The project focuses on offering high-quality, creative designs with easy ordering and installation, fast shipping, and continuous customer support.",
     images: dizitImages,
-    url: "",
+    url: "https://drive.google.com/drive/folders/1W-XtlN3JYWIGve5ReiVGSoYzbVka0o2X",
     githubUrl: "",
     category: "frontend",
     hidden: false,
@@ -164,8 +164,8 @@ export const PROJECTS: IProject[] = [
     description:
      "El Fahd is an online platform for buying and selling products, allowing users to post ads and easily explore deals and offers near them. The project focuses on streamlining the buying and selling process through an interactive interface that supports adding and updating advertisements.",
     images: fahdImages,
-    url: "",
-    githubUrl: "https://github.com/Mostafa-Khaled-1",
+    url: "https://drive.google.com/drive/folders/1Hvrc52cQQOQj7f1K7P09jS4wsHbXwJIa",
+    githubUrl: "https://github.com/MohamedOsama2001/El-Fahd.git",
     category: ["frontend","mern stack"],
     hidden: true,
     developers: [],
