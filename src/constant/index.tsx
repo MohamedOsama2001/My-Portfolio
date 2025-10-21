@@ -130,7 +130,7 @@ export const PROJECTS: IProject[] = [
       "axios",
       "react query",
       "pusher",
-      "chadcn ui",
+      "shadcn/ui",
     ],
   },
   {
@@ -178,7 +178,7 @@ export const PROJECTS: IProject[] = [
       "redux toolkit",
       "React Hook Form",
       "Zod",
-      "chadcn ui",
+      "shadcn/ui",
       "react toastify",
       "vite",
       "nodejs",
