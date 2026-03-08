@@ -102,7 +102,7 @@ const ContactUs = () => {
               {/* Social Icons Row */}
               <div className="flex gap-4 pt-2 justify-center lg:justify-start">
                 <a
-                  href="https://github.com/MohamedOsama2001?tab=repositories"
+                  href="https://github.com/MohamedOsama2001"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="GitHub"

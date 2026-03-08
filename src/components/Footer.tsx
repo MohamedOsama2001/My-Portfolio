@@ -7,7 +7,7 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: <FaGithub className="text-white" size={20} />,
-      link: "https://github.com/MohamedOsama2001?tab=repositories",
+      link: "https://github.com/MohamedOsama2001",
     },
     {
       icon: <FiLinkedin className="text-white" size={20} />,
